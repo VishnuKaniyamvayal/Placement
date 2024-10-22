@@ -1,10 +1,4 @@
-//.Write a JavaScript program to print "Hello, World!" to the console
-console.log("Hello, World!");
-
-//How do you declare a variable in JavaScript?
-let myVariable = "Hello!";
-
-//Write an example to declare a variable for storing a user’s name. Write a JavaScript program that asks the user for their age using prompt(), and then prints whether they are eligible to vote (age >= 18)
+let myVar = "Hello!";
 let userName = prompt("Please enter your name:");
 let userAge = prompt("Please enter your age:");
 if (userAge >= 18) {
@@ -12,8 +6,6 @@ if (userAge >= 18) {
 } else {
     console.log(`${userName}, you are not eligible to vote.`);
 }
-
-//Given two numbers a and b, write a function addNumbers(a, b) that returns the sum of the two numbers.
 function calc(num) {
     let factorial = 1;
     for (let i = 1; i <= num; i++) {
